@@ -1,0 +1,11 @@
+.typing-effect{
+    /* background-color: aqua; */
+    color: yellow;
+    margin-left: 10%;
+    width: 30vw;
+    height: 10vw;
+    font-size: 2em;
+    font-weight: bold;
+    /* font-style: oblique; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
