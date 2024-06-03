@@ -1,11 +1,32 @@
 .typing-effect{
     /* background-color: aqua; */
-    color: yellow;
+    color: whitesmoke;
     margin-left: 10%;
     width: 30vw;
     height: 10vw;
-    font-size: 2em;
-    font-weight: bold;
-    /* font-style: oblique; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    
 }
+.antonio-typer {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .caret {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2px; /* Adjust the width of the caret */
+    height: 1em; /* Adjust the height of the caret */
+    background-color: grey; /* Change color as needed */
+    animation: blink-caret 0.75s infinite; /* Blinking animation */
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }

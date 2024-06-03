@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 import './Typing.css';
 
 function Typing({text, typingSpeed, deletingSpeed, duration}) {
-    // let{text, typingSpeed, deletingSpeed} = props;
     const [displayedText, setDisplayedText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
     const [index, setIndex] = useState(0);
@@ -15,14 +14,14 @@ function Typing({text, typingSpeed, deletingSpeed, duration}) {
           if(displayedText.length < text[index].length){
             setDisplayedText(displayedText + text[index].charAt(displayedText.length));
           }else{
-            setTimeout(()=>{setIsDeleting(true);},duration);
-            
+            setTimeout(()=>{setIsDeleting(true);},duration);            
           }
         }else{
           if(displayedText.length != 0){
             setDisplayedText((prev) => prev.slice(0,-1));
           }else{
-            setIsDeleting(false);
+            // setIsDeleting(false);
+            setTimeout(()=>{setIsDeleting(false);},duration);
             setIndex((prev) => (prev+1)%(text.length))
           }
         }
@@ -38,7 +37,7 @@ function Typing({text, typingSpeed, deletingSpeed, duration}) {
     }, [displayedText, isDeleting, index, text, typingSpeed, deletingSpeed, duration]);
     return (
       <>
-        <div className='typing-effect'>
+        <div className='typing-effect anotonio-typer'>
           {displayedText}
           <span className='caret'></span>
         </div>        

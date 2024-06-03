@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="pageHead">
         <div className='heading'>DAKSH KANAUJIA</div>
-        <div>
+        <div className='Navbar'>
         <Navbar/>
         </div>
       </div>
