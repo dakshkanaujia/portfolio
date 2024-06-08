@@ -2,8 +2,9 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import './Typing.css';
+import '../../Common.css'
 
-function Typing({text, typingSpeed, deletingSpeed, duration}) {
+function Typing({text, typingSpeed, deletingSpeed, duration, font}) {
     const [displayedText, setDisplayedText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
     const [index, setIndex] = useState(0);
@@ -37,7 +38,7 @@ function Typing({text, typingSpeed, deletingSpeed, duration}) {
     }, [displayedText, isDeleting, index, text, typingSpeed, deletingSpeed, duration]);
     return (
       <>
-        <div className='typing-effect anotonio-typer'>
+        <div className={`typing-effect ${font}`}>
           {displayedText}
           <span className='caret'></span>
         </div>        

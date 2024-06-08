@@ -1,0 +1,46 @@
+.margin{
+    margin: 2%;
+}
+
+.text-grey{
+    color: rgb(63, 63, 63);
+    font-weight: 600;
+}
+
+.mt{
+    margin-top: 2%;
+}
+
+.mt-5{
+    margin-top: 5%;
+}
+
+.pl{
+    padding-left: 0.4%;
+}
+
+.pr{
+    padding-right: 0.4%;
+}
+
+.button{
+    font-family: "Poppins", sans-serif;
+    border-radius: 5%;
+    height: 5vh;
+    width: 7vw;
+}
+
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+.text-white{
+    color: whitesmoke;
+}
+
+.text-black{
+    color: #000000;
+}
+
+.comfortaa{
+    font-family: "Comfortaa", sans-serif;
+}

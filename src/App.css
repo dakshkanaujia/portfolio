@@ -13,6 +13,8 @@
 }
 .Navbar{
     margin-right: 4%;
+    z-index: 5;
+    position: absolute;
 }
 .heading{
     font-size: 2em;

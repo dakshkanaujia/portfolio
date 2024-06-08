@@ -16,9 +16,7 @@
 .nav-item a {
     font-size: 1.2em;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(161, 161, 161);
-    box-shadow: -5px 0px 60px black;
     text-decoration: none;
     position: relative;
 }
@@ -41,4 +39,21 @@
 }
 .nav-item a:hover::after {
     width: 100%;
+}
+
+.MainDiv{
+    width: 95vw;
+    margin-left: 3%;
+    gap: 45vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.name{
+    color: Red;
+    font-weight: bold;
+    font-size: 2em;
 }
