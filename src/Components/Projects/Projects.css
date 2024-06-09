@@ -1,0 +1,84 @@
+.projectCard{
+    height: 40vh;
+    width: 20vw;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    border: 2px solid #000;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px #000; */
+    background-color: #fff;
+    transition: all 0.3s;
+    margin: 1%;
+}
+
+.projectImage{
+    width: 100%;
+    height: 40%;
+    background-image: url('../../assets/Projects/Personal-Finance-Manager.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+    /* object-fit: cover; */
+    border-radius: 5px;
+}
+.psm{
+    background-image: url('../../assets/Projects/Personal-Finance-Manager.png');
+}
+.quiz{
+    background-image: url('../../assets/Projects/QuizApp.png');
+}
+.react{
+    background-image: url('../../assets/Projects/React-Portfolio.png');
+}
+.sde{
+    background-image: url('../../assets/Projects/SDEportfolio.png');
+}
+
+.projectDetails{
+    padding: 10px;
+    /* background-color: rgb(236, 228, 219); */
+}
+.projectTitle{
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+    margin: 2%;
+    color: #000;
+}
+.projectDescription{
+    margin: 2%;
+    font-size: 1rem;
+    color: #000;
+}
+
+.projectLink{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.buttonLink{
+    width: 5vw;
+    height: 3vh;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    /* projectImagepadding: 5px 10px; */
+    /* border-radius: 5px; */
+    transition: all 0.3s;   
+    margin: 2%;
+}
+
+.ProjectsContainer{
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    /* margin-top: %; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}

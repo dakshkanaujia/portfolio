@@ -14,7 +14,7 @@
     margin-left:  2%;
 }
 .nav-item a {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     color: rgb(20, 1, 1);
     text-decoration: none;
@@ -25,7 +25,7 @@
     content: "";
     display: block;
     width: 0;
-    height: 2px;
+    height: 3px;
     background-color: rgb(0, 0, 0);
     transition: width 0.3s ease;
     position: absolute;
@@ -54,5 +54,5 @@
 .name{
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
 }

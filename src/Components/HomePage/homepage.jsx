@@ -18,10 +18,11 @@ function Homepage(){
                         duration={1000}
                     />
                 </div>
-                <div className="gifContainer">
-                </div>
-                
-            </div>            
+                <div className="socialbar">
+                    <Socialbar />
+                </div>                
+            </div>          
+            <div className="Image"></div>  
         </div>
     )
 }

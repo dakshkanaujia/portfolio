@@ -1,5 +1,6 @@
-.container{
+.Conntainer{
     z-index: 1;
+    /* background-color: tomato; */
     position: relative;
     display: flex;
     width: 25vw;
@@ -10,17 +11,19 @@
 }
 
 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 2%;
+    font-size: 2em;
     width: 4vw;
     height: 8vh;
     background-color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     border-radius: 100% ;
+    border: 2px solid black;
 }
 
 .icon:hover{
     transition: 0.5s;
-    background-color: grey;
+    background-color: rgb(251, 255, 0);
 }

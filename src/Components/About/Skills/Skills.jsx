@@ -8,7 +8,7 @@ const perc = {
     javascript : 90,
     python : 70,
     typescript : 60,
-    react : 60,
+    react1 : 60,
     springboot : 50,
     node : 60
 }
@@ -64,7 +64,7 @@ function Skills(){
                             <div className="label bebas-neue-regular">
                                 REACT
                                 <div class="progress-container">
-                                    <div class="progress-bar react"><span>{perc.react}%</span></div>
+                                    <div class="progress-bar react1"><span>{perc.react1}%</span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
