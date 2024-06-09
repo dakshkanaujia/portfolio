@@ -8,8 +8,6 @@ import '../../Common.css'
 function Homepage(){
     return (
         <div className="homepage">
-            <div className="cover"></div>
-
             <div className="typerAndSocial">
                 <div className="typerElement">
                     <Typing
@@ -20,11 +18,10 @@ function Homepage(){
                         duration={1000}
                     />
                 </div>
-                <div className="socialbar">
-                    <Socialbar/>
+                <div className="gifContainer">
                 </div>
-            </div>
-            
+                
+            </div>            
         </div>
     )
 }

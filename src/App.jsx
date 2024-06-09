@@ -4,31 +4,26 @@ import Homepage from './Components/HomePage/homepage.jsx'
 import Navbar from './Components/Navbar/Navbar.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import { Routes, Route } from 'react-router-dom';
+import About from './Components/About/About.jsx'
 
 import './Common.css'
-
+const[defaultC, setDefault] = (1);
 function App() {
 
+function change(e){
+  const value = e.target;
+  console.log(value);
+    setDefault(value);
+}
   return (
     <>
-      {/* <Contact/> */}
-
-      {/* <div className="pageHead">
-        <div className='heading poppins'>DAKSH KANAUJIA</div>
-        <div className='Navbar'>
-        <Navbar font={"poppins"} textColor={"white"}/>
-        </div>
-      </div>
-      <div className="home">
-        <Homepage/>
-      </div> */}
       <div className='Navbar'>
-        <Navbar font={"poppins"} textColor={"white"}/>
+        <Navbar value = {defaultC} font={"poppins"} textColor={"white"}/>
       </div>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        {/* <Route path="/about" element={<About />} /> */}
-        <Route path="/contact" element={<Contact />} />
+        <Route onclick={change} value={1} path="/" element={<Homepage />} />
+        <Route onclick={change} value={2} path="/about" element={<About />} />
+        <Route onclick={change} value={3} path="/contact" element={<Contact />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </>

@@ -1,6 +1,6 @@
 .typing-effect{
     /* background-color: aqua; */
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     margin-left: 10%;
     width: 30vw;
     height: 10vw;
@@ -18,7 +18,7 @@
     vertical-align: middle;
     width: 2px; /* Adjust the width of the caret */
     height: 1em; /* Adjust the height of the caret */
-    background-color: grey; /* Change color as needed */
+    background-color: rgb(0, 0, 0); /* Change color as needed */
     animation: blink-caret 0.75s infinite; /* Blinking animation */
   }
   

@@ -1,27 +1,14 @@
 .homepage{
     height: 100vh;
     width: 100%;
-    background-image: url('/src/assets/Images/img1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-image: url('/src/assets/Images/img1.jpg'); */
+    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    align-items: center;
-}
-.cover {
-    height: 100%;
-    width: 100%;
-    position: absolute; /* Position it absolutely within .homepage */
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and transparency as needed */
-    display: flex;
     justify-content: center;
     align-items: center;
-    color: white; /* Optional: Set text color for content inside cover */
 }
+
 
 .typerElement{
     margin-left: 5%;
@@ -53,15 +40,27 @@
   }
   
 .typerAndSocial{
-  margin-top: 15%;
-  width: 50vw;
-  height: 50vh;
+  width: 95vw;
+  margin-top: 3%;
+  height: 90vh;
   display: flex;
-  flex-direction: column;
-  /* justify-content: space-around; */
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: rgb(177, 0, 109); */
+  align-items:center ;
+
 }
 
 .socialbar{
   margin-left: 11%;
+}
+
+.gifContainer{
+  width: 35vw;
+  height: 60vh;
+  /* background-color: #eeff00;
+  background-image: url('../../assets/myPhoto.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
