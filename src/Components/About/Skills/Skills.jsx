@@ -93,7 +93,7 @@ function Skills(){
                             </div>
                         </div>
                     </div>
-                    <div className="imageContainer"></div>                        
+                    <div className="imageContainer rounded-3xl border- border-black  shadow-lg shadow-black duration-200"></div>                        
                 </div>
             </div>
         </>
