@@ -40,43 +40,43 @@ function Skills(){
                             <div className="label bebas-neue-regular">
                                 JAVA
                                 <div class="progress-container">
-                                    <div class="progress-bar java"><span>{perc.java}%</span></div>
+                                    <div class="progress-bar java"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
                                 JAVASCRIPT
                                 <div class="progress-container">
-                                    <div class="progress-bar javascript"><span>{perc.javascript}%</span></div>
+                                    <div class="progress-bar javascript"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
                                 PYTHON
                                 <div class="progress-container">
-                                    <div class="progress-bar python"><span>{perc.python}%</span></div>
+                                    <div class="progress-bar python"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
                                 TYPESCRIPT
                                 <div class="progress-container">
-                                    <div class="progress-bar typescript"><span>{perc.typescript}%</span></div>
+                                    <div class="progress-bar typescript"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
                                 REACT
                                 <div class="progress-container">
-                                    <div class="progress-bar react1"><span>{perc.react1}%</span></div>
+                                    <div class="progress-bar react1"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
                                 SPRINGBOOT
                                 <div class="progress-container">
-                                    <div class="progress-bar springboot"><span>{perc.springboot}%</span></div>
+                                    <div class="progress-bar springboot"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
                                 NODE
                                 <div class="progress-container">
-                                    <div class="progress-bar node"><span>{perc.node}%</span></div>
+                                    <div class="progress-bar node"><span></span></div>
                                 </div>
                             </div>
                         </div>

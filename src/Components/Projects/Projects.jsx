@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css"
 var projects = [
     {
         // url : '../../assets/Projects/Personal-Finance-Manager.png',
-        url : './my-react-portfolio/src/assets/Projects/QuizApp.png',
+        url : 'https://c8.alamy.com/comp/PY96BK/finance-manager-working-with-business-graphics-on-a-laptop-PY96BK.jpg',
         title : "Personal Finance Manager",
         description : "A Personal Finance Manager helps individuals track and manage their finances, including budgeting, expense tracking, and financial planning.",
         link : "https://github.com/dakshkanaujia/personal-finance-manager",
