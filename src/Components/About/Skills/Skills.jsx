@@ -14,6 +14,7 @@ const perc = {
 }
 function increase(){
     const elements = document.querySelectorAll('.progress-bar');
+    
     for (let i = 0; i < elements.length; i++) {
         const element = elements[i];
         const name = element.classList[1];
@@ -22,13 +23,24 @@ function increase(){
     }
     return "done";
 }
-
+function decrease(){
+    const elements = document.querySelectorAll('.progress-bar');
+    for (let i = 0; i < elements.length; i++) {
+        const element = elements[i];
+        element.style.width = '0%'; // Set the width of the element
+    }
+}
 function Skills(){
-    const [incState, increaseState] = useState(""); // Initialize state with an empty string
+    // How to call a function on page load in React
     useEffect(() => {
-        const result = increase(); // Call the increase function
-        increaseState(result); // Update the state with the result
-    }, []);
+        decrease();
+        setTimeout(() => {
+        increase();
+        }, 500);
+    }
+    , []);
+
+
     return(
         <>
 
