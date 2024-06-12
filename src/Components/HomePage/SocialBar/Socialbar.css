@@ -27,3 +27,9 @@
     transition: 0.5s;
     background-color: rgb(251, 255, 0);
 }
+
+.link{
+    text-decoration: none;
+    color: black;
+
+}

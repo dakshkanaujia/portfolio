@@ -9,10 +9,10 @@ function Socialbar() {
     return (
         <div className="Conntainer">
             {/* Correctly apply background image using style attribute */}
-            <div className="icon"><FaXTwitter /></div>
-            <div className="icon"><FaLinkedin /> </div>
-            <div className="icon"><FaYoutube /></div>
-            <div className="icon"><FaGithub /></div>
+            <a target = "_blank" href="https://x.com/?lang=en&mx=2" className="link"><div className="icon"><FaXTwitter /></div></a>
+            <a target = "_blank" href="https://www.linkedin.com/in/daksh-kanaujia/" className="link"><div className="icon"><FaLinkedin /> </div></a>
+            <a target = "_blank" href="https://www.youtube.com/channel/UCW8DCByIFHu9UMOU5T9Q6Lg" className="link"><div className="icon"><FaYoutube /></div></a>
+            <a target = "_blank" href="https://github.com/dakshkanaujia" className="link"><div className="icon"><FaGithub /></div></a>
         </div>
     );
 }
