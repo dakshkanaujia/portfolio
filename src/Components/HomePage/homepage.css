@@ -1,3 +1,8 @@
+body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 10px;
+}
 .homepage{
     height: 100vh;
     width: 100%;
@@ -41,11 +46,11 @@
   
 .typerAndSocial{
   width: 95vw;
-  margin-top: 35%;
+  margin-top: 28%;
   height: 90vh;
   display: flex;
   flex-direction: column;
-  gap: 0%;
+  gap: 5%;
   /* justify-content: space-between; */
   /* background-color: rgb(177, 0, 109); */
   align-items:flex-start;
@@ -68,4 +73,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+
+.video-container {
+  width: 60%;
+  max-width: 800px;
+  overflow: hidden;
+  /* border: 2px solid #333; */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+}
+
+video {
+  width: 100%;
+  display: block;
 }

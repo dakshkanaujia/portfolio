@@ -32,10 +32,10 @@ const Contact = () => {
     <>
         <div className="SuperContainer poppins-regular">
 
-            <div className='leftSide'>
-                <div className='Heading comfortaa-font'>Contact Me</div>
-                <div className='quote'>I'm always open to new opportunities and challenges. Reach out, and let's explore how I can contribute to your team.</div>
-                <div className="greeting">Thank you!</div>
+            <div className='leftSide mt-11'>
+                <div className='flex justify-start items-center Heading comfortaa-font p-2'>Contact Me</div>
+                <div className='flex justify-center items-center quote p-2'>I'm always open to new opportunities and challenges. Reach out, and let's explore how I can contribute to your team.</div>
+                <div className="flex justify-start items-center greeting p-2">Thank you!</div>
             </div>
 
 

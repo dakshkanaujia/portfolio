@@ -1,5 +1,5 @@
 .navbar {
-    margin-right: 50%;
+    /* margin-right: 5%; */
     height: 5vh;
     list-style: none;
     display: flex;
@@ -10,7 +10,6 @@
 }
 
 .nav-item{
-
     margin-left:  2%;
 }
 .nav-item a {
@@ -43,7 +42,7 @@
 .MainDiv{
     width: 95vw;
     margin-left: 3%;
-    gap: 45vw;
+    gap: 35vw;
     /* background-color: aqua; */
     display: flex;
     flex-direction: row;
@@ -52,6 +51,8 @@
 }
 
 .name{
+    /* width: fit-content; */
+    width: 30vw;
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 2.5em;
