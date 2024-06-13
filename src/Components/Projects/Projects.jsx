@@ -51,7 +51,7 @@ function Projects() {
             {
                 projects.map((element)=>{
                     return(
-                        <div className="projectCard">
+                        <div className="projectCard border-black">
                             <div className={`projectImage ${element.className}`}>
                             </div>
                             <div className="projectDetails">
