@@ -18,7 +18,6 @@ function About(){
                     <FaRegArrowAltCircleDown className="h-16 w-16 animate-bounce text-black font-light" />
                 </div>
             </div>
-            {/* </svg> */}
             <Timeline/>
         </div>
         </>

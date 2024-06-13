@@ -5,3 +5,33 @@
 body{
     margin : 0;
 }
+
+/* Targeting WebKit-based browsers like Chrome and Safari */
+/* Customize the scrollbar itself */
+/* Note: These styles will only work on WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Customize the track (the area where the scrollbar is displayed) */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the track */
+}
+
+/* Customize the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners of the thumb */
+}
+
+/* Customize the corner of the scrollbar where both vertical and horizontal scrollbars meet */
+::-webkit-scrollbar-corner {
+    background-color: transparent; /* Color of the corner */
+}
+
+/* Optionally, style the scrollbar when in its "hover" state */
+::-webkit-scrollbar-thumb:hover {
+    transition: 1s ease-in-out;
+    background-color: rgb(29, 29, 29);
+}
+
